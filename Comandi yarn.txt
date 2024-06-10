@@ -1,0 +1,50 @@
+//Lezione 3 
+
+solana-keygen new --force (creazione wallet keypair dal terminale)
+
+solana address (VISUALIZZA indirizzo wallet)
+
+solana config get 
+
+solana config set --url "mainnet-beta, devnet, "  
+
+solana confgi set --keypair  "percorso della nuova Keypar default"
+
+solana balance "pubblicKey address"
+
+solana airdrop " numero dei sol"
+
+solana trasfer "pubblicKey address"
+
+
+Lezione 4 Crazione ambiente
+//Inizializiamo la cartella di lavoro Creazione file Licenza packge.json//
+yarn init
+
+//Inizializzare Ts.mod
+yarn add -D ts-node
+
+//Inizializare 
+yarn tsc --init --rootDir ./ --outDir ./dist --esModuleInterop --lib ES2019 --module commonjs --resolveJsonModule true --noImplicitAny true
+
+//Codice creazione cartelle l'ambiente aggiungere pacchetti//
+ 
+
+Lezione5
+
+yarn createMint
+
+yarn mintToken
+
+Lezione 6
+
+npm install \
+@metaplex-foundation/umi \
+@metaplex-foundation/umi-bundle-defaults \
+@solana/web3.js \
+@metaplex-foundation/mpl-token-metadata
+
+
+
+
+
