@@ -13,7 +13,7 @@ import wallet from "./wallet.json";
 
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 const connection = new Connection("https://api.devnet.solana.com", "confirmed");
-const mint = new PublicKey("4yBiNUmxDPWDGKDcWpHZ3vVY3dxxFfmJueu7a5SZnWX4");
+const mint = new PublicKey("HkfR7yTrmNNhUqycJPCJp5F63r6SB6kf5bRUQyHsC4rd");
 
 (async () => {
 

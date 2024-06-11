@@ -1,0 +1,21 @@
+https://explorer.solana.com/tx/5PoVCFSnDWmgasmfiqo18W5xCSwGAdhiQ2AxWBNpSyfymsNTGP4bVGPr1or53vhmd3zQ4u94CGEp7FBybQHdod4W?cluster=devnet
+
+PublicKey:6iLm2cjgnAFpJnjHv2jdmpyKdXjYzLjH3rRNFY9HB5B
+
+dalsf@DESKTOP-6G4RD99:/mnt/c/Users/Fatal1tyZ170/Desktop/solanatokenspl/solanatokenspl$ yarn  createMint
+yarn run v1.22.22
+$ ts-node ./spl_init.ts
+Mint Address: HkfR7yTrmNNhUqycJPCJp5F63r6SB6kf5bRUQyHsC4rd
+Done in 41.38s.
+
+https://explorer.solana.com/address/HkfR7yTrmNNhUqycJPCJp5F63r6SB6kf5bRUQyHsC4rd?cluster=devnet
+
+dalsf@DESKTOP-6G4RD99:/mnt/c/Users/Fatal1tyZ170/Desktop/solanatokenspl/solanatokenspl$ yarn mintToken
+yarn run v1.22.22
+$ ts-node ./spl_mint.ts
+Associated Token Account:  4CHjUxaWNcGZfsqn9ytLfrDwkwqzeJiCaS5fEK3rYDzE
+Minted 10000000 to 4CHjUxaWNcGZfsqn9ytLfrDwkwqzeJiCaS5fEK3rYDzE
+Done in 41.82s.
+
+https://explorer.solana.com/address/4CHjUxaWNcGZfsqn9ytLfrDwkwqzeJiCaS5fEK3rYDzE?cluster=devnet
+
